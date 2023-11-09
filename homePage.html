@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleHomePage.css"/>
+    <title>Style Design SRL</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .bar2 p
+       {
+           animation-name: anim1;
+           animation-duration: 3s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+       }
+       @keyframes anim1 {
+           from {margin-left:30%;}
+           to {margin-left: 50%;}
+       }
+   </style>
+</head>
+<body>
+    <ul class="bar1">
+        <li>Despre noi</li>
+        <li>Intră în cont |</li>
+        <li>Înregistrează-te</li>
+        <li>Contact</li>
+    </ul>
+    <img src="icon.jpg" alt="Icon Image">
+    <div class="navbar">
+        <div class="bucatarie">
+            <button class="bucatarieBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>BUCĂTĂRIE</b></button>
+                <div class="columnBucatarie">
+                  <a href="#">Set mobilă bucătărie</a>
+                  <a href="#">Dulapuri</a>
+                </div>
+        </div>
+        <div class="baie">
+            <button class="baieBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>BAIE</b></button>
+                <div class="columnBaie">
+                  <a href="#">Chiuvete</a>
+                  <a href="#">Dulapuri</a>
+                  <a href="#">Oglinzi</a>
+                </div>
+        </div>
+        <div class="dormitor">
+            <button class="dormitorBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>DORMITOR</b></button>
+                <div class="columnDormitor">
+                  <a href="#">Paturi</a>
+                  <a href="#">Dulapuri</a>
+                  <a href="#">Alte structuri</a>
+                </div>
+        </div>
+        <div class="livingroom">
+            <button class="livingroomBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>LIVING-ROOM</b></button>
+                <div class="columnLiving">
+                  <a href="#">Canapele</a>
+                  <a href="#">Dulapuri</a>
+                </div>
+        </div>
+        <div class="hol">
+           <button class="holBtn" style="font-size: 20px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>HOL</b></button>
+        </div>
+    </div>
+    <form class="searchBtn" action="actionBtn.php">
+      <input type="text" placeholder="Caută..." name="cauta">
+      <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+     <div class="shoppingCart">
+    <button type="submit"><i class="fa fa-shopping-cart"></i></button>
+    </div>
+    <div class="favourite">
+    <button type="submit"><i class="fa fa-heart"></i></button>
+    </div>
+    <div class="bar2">
+        <p>Creează-ți mobila exact așa cum vrei!</p>
+    </div>
+    <div class="row">
+        <div class="column">
+          <a href=""><img src="dormitor.jpeg" alt="dormitor" style="height: 450px; width: 300px;"></a>
+        </div>
+        <div class="column">
+          <a href=""><img src="baie.jpeg" alt="baie" style="height: 450px; width: 300px;"></a>
+        </div>
+        <div class="column">
+          <a href=""><img src="bucatarie.jpeg" alt="bucatarie" style="height: 450px; width: 300px;"></a>
+        </div>
+        <div class="column">
+          <a href=""><img src="living.jpeg" alt="living" style="height: 450px; width: 300px;"></a>
+          </div>
+      </div>
+    <div class="quotes">
+      <p style="font-size: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 70px;">"FURNITURE</p>
+      <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  margin-top: -30px;">must have personality</p>
+      <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">personality as well as</p>
+      <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">be beautiful."</p>
+    </div>
+    <div class="create">
+      <img src="quote.jpg" alt="imgMakeYourOwn" style="width:70%; margin-top: -300px;margin-left:400px;">
+      <button class="myIdea">CREATE NOW!</button>
+    </div>
+</body>
+</html>
