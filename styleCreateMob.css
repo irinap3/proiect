@@ -1,0 +1,149 @@
+ul.bar1{
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+}
+ul.bar1 li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    list-style-type: none;
+    position: relative;
+    float: left;
+    left: 70%;
+    width: 120px;
+    margin-top: -10px;
+}
+ul.bar1 li:hover{
+    color:red;
+}
+img{
+    border-radius: 25px;
+    width: 200px;
+    padding: 20px;
+    margin-top: -57px;
+    margin-left: 600px;
+}
+.bar2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: black;
+    padding: 3px;
+    color: white;
+    margin-top: -20px;
+  }
+  .creatie{
+    border: 3px solid;
+    background-color: white;
+    width: 700px;
+    margin-left: 25%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type=text], input[type=email],input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ccc;
+}
+.contact button {
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 5px;
+  } 
+button:hover {
+opacity: 0.8;
+}
+ul.suportClienti{
+    margin-top: 200px;
+  }
+  ul.suportClienti li{
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  ul.ghid{
+    margin-left: 500px;
+    margin-top: -100px;
+  }
+  ul.ghid li{
+    margin-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  ul.termeniSiCond{
+    margin-left: 1000px;
+    margin-top: -100px;
+  }
+  ul.termeniSiCond li{
+    margin-left: -20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: 50px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    float: left;
+    margin-right: 80px;
+  }
+  .fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    float: left;
+    margin-right: 80px;
+  }
+  
+  .fa-instagram {
+  background: #125688;
+  color: white;
+  padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    float: left;
+    margin-right: 80px;
+  }
+  .bar4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 20px;
+  }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleCreateMob.css"/>
+    <title>Formular de achiziție</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .bar2 p
+       {
+           animation-name: anim1;
+           animation-duration: 3s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+       }
+       @keyframes anim1 {
+           from {margin-left:30%;}
+           to {margin-left: 50%;}
+       }
+   </style>
+</head>
+<body>
+    <ul class="bar1">
+        <a href=""><li>Despre noi</li></a>
+        <a href="log_inPage.html"><li>Intră în cont |</li></a>
+        <a href="contNou.html"><li>Înregistrează-te</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+    </ul>
+    <img src="icon.jpg" alt="Icon Image">
+    <div class="bar2">
+        <p>Creează-ți mobila exact așa cum vrei!</p>
+    </div>
+    <h2 style="text-align: center; font-size: 30px;font-family: Georgia, 'Times New Roman', Times, serif;">Formular de creație</h2>
+    <p style="text-align: center;font-size: 20px;font-family: Georgia, 'Times New Roman', Times, serif;">Completează formularul de mai jos și creează piesele de mobilier dorite exact așa cum îți imaginezi! <br>
+        Vei fi apoi contactat de echipa noastră pentru a discuta <br>
+         mai multe detalii și a stabili o întâlnire.
+    </p>
+    <form class="creatie" action="formular4.php" method="post">
+        <label for="nume" style="text-align: left; margin-left: 10px;"><b>Nume</b></label>
+        <input type="text" placeholder="" name="nume" required>
+        <label for="prenume" style="text-align: left; margin-left: 10px;"><b>Prenume</b></label>
+        <input type="text" placeholder="" name="prenume" required>
+        <label for="email" style="text-align: left; margin-left: 10px;"><b>Email</b></label>
+        <input type="email" placeholder="ion.popescu@gmail.com" name="email" required>
+        <label for="telefon" style="text-align: left; margin-left: 10px;"><b>Numar de telefon</b></label>
+        <input type="number" placeholder="07xx-xxx-xxx" name="telefon" required>
+        <br>
+        <label style="margin-left: 10px;font-size: 18px; font-family: Georgia, 'Times New Roman', Times, serif;" for="camera"><b>Alege camera </b></label>
+        <select style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;" name="camera" id="camera">
+            <option value="bucatarie">Bucătărie</option>
+            <option value="baie">Baie</option>
+            <option value="dormitor">Dormitor</option>
+            <option value="living">Living-room</option>
+            <option value="hol">Hol</option>
+        </select>
+        <br><br>
+        <label style="margin-left: 10px;font-size:18px;font-family: Georgia, 'Times New Roman', Times, serif;" for="piesa"><b>Alege piesa</b> </label>
+        <select style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;" nume="piesa" id="piesa">
+            <option value="setBucatarie">Set mobilă bucătărie</option>
+            <option value="dulap">Dulap</option>
+            <option value="chiuveta">Chiuvetă</option>
+            <option value="oglinda">Oglindă</option>
+            <option value="pat">Pat</option>
+            <option value="alteStruct">Alte structuri</option>
+            <option value="canapea">Canapea</option>
+            <option value="niciuna">Niciuna de mai sus</option>
+        </select>
+        <br><br>
+        <label for="mesaj" style="text-align: left; margin-left: 10px;"><b>Menționează aici piesa de mobilier dorită *</b></label>
+        <input type="text" placeholder="Mesaj" name="mesaj">
+        <label for="material" style="text-align: left; margin-left: 10px;"><b>Alege material*</b></label>
+        <input type="text" placeholder="" name="material">
+        <label for="culoare" style="text-align: left; margin-left: 10px;"><b>Alege culoarea dorită</b></label>
+        <input type="text" placeholder="" name="culoare">
+        <p style="margin-left: 10px;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 18px;">Secțiunile marcate cu * sunt opționale.</p>
+        <button style="margin-left: 250px;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 18px; margin-bottom: 10px;" type="submit">Trimite formular!</button>
+    </form>
+    <ul class="suportClienti">
+        <li style="font-size: 20px;">Suport clienti</li>
+        <a href=""><li>Ai o intrebare? Click aici!</li></a>
+        <a href=""><li>Scrie-ne la: <br> online@styleDesign.ro</li></a>
+        <a href=""><li>Contact</li></a>
+      </ul>
+      <ul class="ghid">
+        <li style="font-size: 20px;">Ghid de <br> cumparaturi online</li>
+        <a href=""><li>Conditii de livrare</li></a>
+        <a href=""><li>Reclamatii</li></a>
+      </ul>
+      <ul class="termeniSiCond">
+        <li style="font-size: 20px;">Termeni si conditii</li>
+        <a href=""><li>Termeni si conditii</li></a>
+        <a href=""><li>Intrebari frecvente</li></a>
+        <a href=""><li>Cum cumpar?</li></a>
+        <a href=""><li>Politica de confidentialitate</li></a>
+      </ul>
+      <div class="bar4">
+      <p>Ne găsești și pe: </p>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+</body>
+</html>

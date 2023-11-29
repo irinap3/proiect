@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleContact.css"/>
+    <title>Contact-Style Design</title>
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .contact{
+    border: 3px solid;
+    background-color: rgb(176, 173, 173);
+    width: 700px;
+    margin-left: 50px;
+}
+input[type=text], input[type=password], input[type=email],input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.contact button {
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 5px;
+  } 
+button:hover {
+opacity: 0.8;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 700px;
+  margin-left: 800px;
+  margin-top: -650px;
+}
+    </style>
+</head>
+<body>
+    <ul class="bar1">
+        <a href=""><li>Despre noi</li></a>
+        <a href="log_inPage.html"><li>Intră în cont |</li></a>
+        <a href="contNou.html"><li>Înregistrează-te</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+    </ul>
+    <img src="icon.jpg" alt="Icon Image">
+    <div class="navbar">
+        <div class="bucatarie">
+            <button class="bucatarieBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>BUCĂTĂRIE</b></button>
+                <div class="columnBucatarie">
+                  <a href="#">Set mobilă bucătărie</a>
+                  <a href="#">Dulapuri</a>
+                </div>
+        </div>
+        <div class="baie">
+            <button class="baieBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>BAIE</b></button>
+                <div class="columnBaie">
+                  <a href="#">Chiuvete</a>
+                  <a href="#">Dulapuri</a>
+                  <a href="#">Oglinzi</a>
+                </div>
+        </div>
+        <div class="dormitor">
+            <button class="dormitorBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>DORMITOR</b></button>
+                <div class="columnDormitor">
+                  <a href="#">Paturi</a>
+                  <a href="dormitor_dulapuri.html">Dulapuri</a>
+                  <a href="#">Alte structuri</a>
+                </div>
+        </div>
+        <div class="livingroom">
+            <button class="livingroomBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>LIVING-ROOM</b></button>
+                <div class="columnLiving">
+                  <a href="#">Canapele</a>
+                  <a href="#">Dulapuri</a>
+                </div>
+        </div>
+        <div class="hol">
+           <button class="holBtn" style="font-size: 20px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>HOL</b></button>
+        </div>
+    </div>
+    <form class="searchBtn" action="actionBtn.php">
+      <input type="text" placeholder="Caută..." name="cauta">
+      <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+     <div class="shoppingCart">
+    <button type="submit"><i class="fa fa-shopping-cart"></i></button>
+    </div>
+    <div class="favourite">
+    <button type="submit"><i class="fa fa-heart"></i></button>
+    </div>
+    <h2 style="margin-left: 30px; font-family: Georgia, 'Times New Roman', Times, serif;">CONTACT</h1>
+    <p style="margin-left: 20px; font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;">Vorbește direct cu un consultant Style Design completând formularul de mai jos.</p>
+    <form class="contact" action="formular3.php" method="post">
+      <div class="box">
+        <h2 style="margin-left: 10px;">Despre ce vrei să comunici cu noi?</h2>
+        <p style="margin-left: 10px;">Alege tema de comunicare și completează câmpurile de mai jos, pentru a putea primi un răspuns la solicitarea ta.</p>
+      </div>
+    <label for="subiect" style="text-align: left; margin-left: 10px;"><b>Subiect</b></label>
+    <input type="text" placeholder="Scrie subiectul" name="subiect" required>
+    <label for="fullname" style="text-align: left;margin-left: 10px;"><b>Nume și prenume</b></label>
+    <input type="text" placeholder="" name="fullname" required>
+    <label for="mesaj" style="text-align: left;margin-left: 10px;"><b>Mesajul tău</b></label>
+    <input type="text" placeholder="" name="mesaj" required>
+    <label for="email" style="text-align: left;margin-left: 10px;"><b>E-mail</b></label>
+    <input type="email" placeholder="" name="email" required>
+    <label for="telefon" style="text-align: left;margin-left: 10px;"><b>Număr de telefon</b></label>
+    <input type="number" placeholder="07xx-xxx-xxx" name="telefon" required>
+    <label>
+      <input type="checkbox" checked="checked" name="contactMe"> Sunt de acord să fiu contactat de Style Design.
+    </label>
+    <br>
+    <button style="margin-left: 190px;"type="submit">Trimite</button>
+    </form>
+    <div class="vl"></div>
+    <div class="telephone">
+    <p style="font-size: 24px; color:rgb(21, 170, 23);"><i class="fa fa-phone" style="font-size:24px"></i><b> Comenzi și suport</b></p>
+    <p style="font-size: 20px;">+40 721 796 093</p>
+    <p style="font-size: 20px;">Puteți să ne contactați și prin <br>
+      intermediul aplicației WhatsApp <br>
+      la același număr de telefon afișat <br>
+      anterior.
+    </p>
+    </div>
+    <div class="corespondenta">
+      <p style="font-size: 24px; color:rgb(61, 197, 234);"><b> Adresă și corespondență</b></p>
+      <p style="font-size: 20px;"><b>Persoană de contact</b><br>
+        Bencea Cristian<br>
+        Style Design S.R.L. <br>
+        Adresa:...
+      </p>
+    </div>
+    <ul class="suportClienti">
+      <li style="font-size: 20px;">Suport clienti</li>
+      <a href=""><li>Ai o intrebare? Click aici!</li></a>
+      <a href=""><li>Scrie-ne la: <br> online@styleDesign.ro</li></a>
+      <a href=""><li>Contact</li></a>
+    </ul>
+    <ul class="ghid">
+      <li style="font-size: 20px;">Ghid de <br> cumparaturi online</li>
+      <a href=""><li>Conditii de livrare</li></a>
+      <a href=""><li>Reclamatii</li></a>
+    </ul>
+    <ul class="termeniSiCond">
+      <li style="font-size: 20px;">Termeni si conditii</li>
+      <a href=""><li>Termeni si conditii</li></a>
+      <a href=""><li>Intrebari frecvente</li></a>
+      <a href=""><li>Cum cumpar?</li></a>
+      <a href=""><li>Politica de confidentialitate</li></a>
+    </ul>
+    <div class="bar4">
+    <p>Ne găsești și pe: </p>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+</body>
+</html>
