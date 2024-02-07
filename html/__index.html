@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleHomePage.css"/>
+    <title>Style Design SRL</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .bar2 p
+       {
+           animation-name: anim1;
+           animation-duration: 3s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+       }
+       @keyframes anim1 {
+           from {margin-left:30%;}
+           to {margin-left: 50%;}
+       }
+   </style>
+</head>
+<body>
+    <ul class="bar1">
+        <a href=""><li>Despre noi</li></a>
+        <a href="http://localhost/login_register/login.php"><li>Intră în cont |</li></a>
+        <a href="http://localhost/login_register/registration.php"><li>Înregistrează-te</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+    </ul>
+    <img src="/images/icon.jpg" alt="Icon Image">
+    <div class="navbar">
+        <div class="bucatarie">
+            <button class="bucatarieBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>BUCĂTĂRIE</b></button>
+                <div class="columnBucatarie">
+                  <a href="#">Set mobilă bucătărie</a>
+                  <a href="#">Dulapuri</a>
+                </div>
+        </div>
+        <div class="baie">
+            <button class="baieBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>BAIE</b></button>
+                <div class="columnBaie">
+                  <a href="#">Chiuvete</a>
+                  <a href="#">Dulapuri</a>
+                  <a href="#">Oglinzi</a>
+                </div>
+        </div>
+        <div class="dormitor">
+            <button class="dormitorBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>DORMITOR</b></button>
+                <div class="columnDormitor">
+                  <a href="#">Paturi</a>
+                  <a href="dormitor_dulapuri.html">Dulapuri</a>
+                  <a href="#">Alte structuri</a>
+                </div>
+        </div>
+        <div class="livingroom">
+            <button class="livingroomBtn" style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>LIVING-ROOM</b></button>
+                <div class="columnLiving">
+                  <a href="#">Canapele</a>
+                  <a href="#">Dulapuri</a>
+                </div>
+        </div>
+        <div class="hol">
+           <button class="holBtn" style="font-size: 20px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>HOL</b></button>
+        </div>
+    </div>
+    <form class="searchBtn" action="actionBtn.php">
+      <input type="text" placeholder="Caută..." name="cauta">
+      <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+     <div class="shoppingCart">
+    <button type="submit"><i class="fa fa-shopping-cart"></i></button>
+    </div>
+    <div class="favourite">
+    <button type="submit"><i class="fa fa-heart"></i></button>
+    </div>
+    <div class="bar2">
+      <p>Creează-ți mobila exact așa cum vrei!</p>
+  </div>
+  <div class="row">
+      <div class="column">
+        <a href=""><img src="/images/dormitor.jpeg" alt="dormitor" style="height: 450px; width: 300px;"></a>
+      </div>
+      <div class="column">
+        <a href=""><img src="/images/baie.jpeg" alt="baie" style="height: 450px; width: 300px;"></a>
+      </div>
+      <div class="column">
+        <a href=""><img src="/images/bucatarie.jpeg" alt="bucatarie" style="height: 450px; width: 300px;"></a>
+      </div>
+      <div class="column">
+        <a href=""><img src="/images/living.jpeg" alt="living" style="height: 450px; width: 300px;"></a>
+        </div>
+    </div>
+    <div class="quotes">
+      <p style="font-size: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 70px;">"FURNITURE</p>
+      <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  margin-top: -30px;">must have personality</p>
+      <p style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">as well as be </p>
+      <p style="font-size: 40px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">beautiful."</p>
+    </div>
+    <div class="image-container">
+      <img src="/images/quote.jpg" alt="imgMakeYourOwn" style="width:70%; margin-top:-300px ;margin-left:400px;">
+      <a href="createMob.html"><button class="btn" style="height: 50px; width: 150px"><b>CREATE NOW!</b></button></a>
+    </div>
+    <div class="bar3">
+      <p>Tu ne spui ideea ta, iar noi o punem în practică! Apasă pe butonul "Create now!" și fă ca mobila visurilor tale să devină realitate.</p>
+    </div>
+    <img src="/images/mobilaBucatarie.jpg" alt="mobila" style="height: 400px; width: 400px; margin-top:0; margin-left: 0;">
+    <p style="font-size: 30px;margin-top:-10px; margin-left:150px; font-family:fantasy;">4199 RON</p>
+    <p style="text-align: center; margin-top: -400px; font-size:50px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">De ce să ne alegi pe noi?</p>
+    <p style="text-align: center; margin-top: -20px; font-size: 20px;">Avem o arie largă de produse din care puteți alege, iar <br>în plus, aveți posibilitatea să lucrați cu o echipă pricepută <br> care este dornică să pună planurile dumneavoastră în practică <br> în timpul cel mai scurt posibil.</p>
+    <img src="/images/dulap.jpg"alt="dulap" style="float: right; margin-top: -300px; width: 400px;">
+    <p style="font-size: 30px;margin-top:0; margin-left:1300px; font-family:fantasy;">2099 RON</p>
+    <div class="container">
+      <h2> Our Happy Clients </h2>
+      <p class="description">Ca urmare a proiectelor pe care le-am avut de-a lungul timpului, am reușit să obținem și 
+        un feed-back de la clienții noștri. Iată ce spun aceștia despre noi!
+      </p>
+    <div class="reviewSection">
+          <div class="reviewItem">
+              <div class="top">
+                  <div class="clientImage">
+                      <img src="/images/client1.jpg" alt="client1">
+                      <span>Popa Irina</span>
+                  </div>
+                  <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-regular fa-star"></i></li>
+                  </ul>
+              </div>
+              <article>
+                  <p class="review">Rezultatul final a fost exact așa cum mi-am dorit.
+                  Echipa este foarte bine coordonată și lucrarea a fost gata exact
+                  în timpul precizat la începutul proiectului. </p>
+                  <p>Ian 01, 2020</p>
+              </article>
+          </div>
+          <div class="reviewItem">
+            <div class="top">
+                <div class="clientImage">
+                    <img src="/images/client2.jpg" alt="client2">
+                    <span>Fugulin Claudiu</span>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                </ul>
+            </div>
+            <article>
+                <p class="review">Pe lângă piesele de mobilier propriu-zise,
+                am beneficiat și de sfaturi utile din partea echipei Style Design. 
+                Știam că vreau ceva personalizat, dar nu știam exact ce! Rezultatul
+                final mă reprezintă în totalitate.</p>
+                <p>Iul 20, 2021</p>
+            </article>
+        </div>
+        <div class="reviewItem">
+          <div class="top">
+              <div class="clientImage">
+                  <img src="/images/client3.jpg" alt="client 3">
+                  <span>Stan Larisa</span>
+              </div>
+              <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+              </ul>
+          </div>
+          <article>
+              <p class="review">Mă declar total mulțumită de calitatea
+                materialului folosit și de construcție în sine. Deși a 
+                trecut o perioadă bună de la achiziționare, mobila arată
+                exact ca în prima zi. Recomand!
+              </p>
+              <p>Sept 10, 2022</p>
+          </article>
+      </div>
+    </div>
+  </div>
+  <ul class="suportClienti">
+    <li style="font-size: 20px;">Suport clienti</li>
+    <a href=""><li>Ai o intrebare? Click aici!</li></a>
+    <a href=""><li>Scrie-ne la: <br> online@styleDesign.ro</li></a>
+    <a href=""><li>Contact</li></a>
+  </ul>
+  <ul class="ghid">
+    <li style="font-size: 20px;">Ghid de <br> cumparaturi online</li>
+    <a href=""><li>Conditii de livrare</li></a>
+    <a href=""><li>Reclamatii</li></a>
+  </ul>
+  <ul class="termeniSiCond">
+    <li style="font-size: 20px;">Termeni si conditii</li>
+    <a href=""><li>Termeni si conditii</li></a>
+    <a href=""><li>Intrebari frecvente</li></a>
+    <a href=""><li>Cum cumpar?</li></a>
+    <a href=""><li>Politica de confidentialitate</li></a>
+  </ul>
+  <div class="bar4">
+  <p>Ne găsești și pe: </p>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-youtube"></a>
+</div>
+</body>
+</html>

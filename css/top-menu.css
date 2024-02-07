@@ -1,0 +1,79 @@
+.bar2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: black;
+    padding: 3px;
+    color: white;
+    margin-top: 0;
+  }
+.row {
+    display:flex;
+  } 
+.column {
+    flex:33.33%;
+    margin-top: 37px;
+    margin-left:-39%;
+  }
+  .bar3{
+    background-color: rgb(0, 0, 0);
+      padding: 10px;
+      margin-top: -10px;
+      color: white;
+      font-size: 20px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+      margin-top: -25px;
+      text-align: center;
+  }
+  
+/* Stiluri pentru containerul de imagine */
+.image-container {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+/* Stiluri pentru imaginea de fundal */
+.background-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Stiluri pentru containerul de buton */
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+/* Stiluri pentru butonul CREATE NOW! */
+.btn-overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px 30px;
+    border: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-overlay:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.image-container .btn{
+    position:absolute;
+    margin-top: -80px;
+    left: 70%;
+    background-color:rgb(77, 73, 73);
+    color:white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

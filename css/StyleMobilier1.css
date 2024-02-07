@@ -1,0 +1,46 @@
+.titlu {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', monospace;
+    color: #000000; /* Culoarea textului */
+    margin-bottom: 100px; /* Spațiu între titlu și galerie */
+}
+.continut {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.partea-stanga img {
+    width: 30%;
+    height: 300px;
+    margin: 5px;
+}
+
+.partea-dreapta {
+    flex: 1;
+    margin-left: 20px;
+}
+p {
+    margin-bottom: 20px; /* Adaugă un spațiu de 20 de pixeli între paragrafe */
+}
+
+.produs {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #c7c093;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+#cos img {
+    width: 65px;/* Ajustați dimensiunea imaginii conform preferințelor dvs. */
+    height: auto;
+    margin-left: 5px;
+}
